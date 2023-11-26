@@ -10,7 +10,7 @@ interface ProductItemProp {
 const ProductItem = ({ product }: ProductItemProp) => {
   return (
     <div className="flex flex-col gap-4 max-w-[170px]">
-      <div className="relative bg-accent rounded-lg h-[170px] w-[170px] items-center flex justify-center ">
+      <div className="relative bg-accent rounded-lg h-[170px] w-full items-center flex justify-center ">
         <Image
           src={product.imageUrls[0]}
           height={0}
